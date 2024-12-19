@@ -1,0 +1,154 @@
+
+/* .sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color:black;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    border-color:white;
+    
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sidebar-container.open {
+    transform: translateX(0);
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .sidebar-toggle-btn {
+    padding: 50px;
+    background-color: #444;
+    border: none;
+    
+    cursor: pointer;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    
+  }
+  
+  .sidebar-menu li {
+    margin: 10px 0;
+  }
+  
+  .sidebar-menu a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    background-color:black;
+    transition: background-color 0.3s;
+    font-size: 24px;
+    font-weight: 800;
+    
+  }
+  
+  .sidebar-menu a:hover {
+    background-color: #555;
+    width: 100%;
+  }
+  
+  
+  .page-content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .sidebar-container.open + .page-content {
+    margin-left: 0;
+  }
+  
+
+.logout-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #f44336; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.logout-button:hover {
+  background-color: #d32f2f;
+} */
+/* .sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: black;
+  transition: transform 0.3s ease;
+  flex-direction: column;
+}
+
+.sidebar-container.open {
+  transform: translateX(0);
+}
+
+.sidebar {
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 10;
+}
+
+.sidebar-menu li {
+  padding: 18px;
+  margin: 6px;
+}
+
+.sidebar-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  
+}
+
+.logout-button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  background-color: #444;
+} */

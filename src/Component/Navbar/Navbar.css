@@ -1,0 +1,147 @@
+
+/* .navbar {
+    background-color: gray;
+    padding: 1rem 1rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+margin-top: -18px;
+    margin-left: -8px;
+    background-color:lightseagreen;
+    margin-right: 10px;
+    width: 100%;
+  }
+  
+  .navbar-links li {
+    margin: 0 -6rem;
+    
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6rem;
+    text-decoration: double;
+  }
+.login-btn{
+  
+  height: 40px;
+  font-size: 20px;
+  background-color:black; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.hamburger {
+  font-size: 30px;
+  color: black;
+  cursor: pointer;
+  z-index: 1000;  
+}*/
+
+
+/* Navbar container */
+.navbar-container {
+  display: flex;
+  justify-content: space-between; /* Spread out logo and links */
+  align-items: center;
+  padding: 10px 70px;
+  width: 93%;
+  background-color: lightseagreen;
+  color: white;
+  margin-top: -6px;
+}
+
+/* Logo Container */
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
+.logo-name {
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.navbar-links li {
+  margin-right: 160px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* Styling for Navbar Links */
+.navbar-links .links {
+  color: white;
+  text-decoration: none;
+  font-size: 36px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.navbar-links .links:hover {
+  color: violet;
+}
+
+/* Login/Logout button */
+.login-btn button {
+  background-color: red;  /* Green button */
+  color: white;
+  border: none;
+  padding: 16px 19px;
+  cursor: pointer;
+  font-size: 26px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn button:hover {
+  background-color: #45a049;
+}
+
+/* For mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column; /* Stack the elements vertically */
+    align-items: center;
+  }
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-links li {
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
+  
+
+  
+  
+    
+  
+  
+  
+   

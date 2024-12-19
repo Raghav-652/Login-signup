@@ -1,0 +1,75 @@
+/* Admin Dashboard Layout */
+.layout {
+    display: flex; /* Use flexbox to arrange sidebar and content side by side */
+    min-height: 100vh; /* Ensure the layout covers the entire screen height */
+  }
+  
+  /* Sidebar Styles */
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar */
+    background-color: darkviolet; /* Dark background color for sidebar */
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh; /* Full screen height */
+    padding-top: 20px;
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+  }
+  
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    
+    margin: 10px 0;
+    display: block;
+    font-size: 26px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #34495e; /* Darker shade on hover */
+  }
+  
+  /* Content Styles */
+  .content {
+    margin-left: 250px; /* Offset content to the right of the sidebar */
+    padding: 20px;
+    flex-grow: 1;
+    background-color:white;
+    height: 10vh;
+  }
+  
+  /* Adjust the content for smaller screens */
+  @media (max-width: 768px) {
+    .layout {
+      flex-direction: column; /* Stack sidebar and content vertically */
+    }
+  
+    .sidebar {
+      width: 100%; /* Make sidebar full width on mobile */
+      position: relative; /* Sidebar is no longer fixed */
+    }
+  
+    .content {
+      margin-left: 0; /* Remove left margin when sidebar is stacked */
+    }
+  }
+  
+  /* Style for the active link in the sidebar */
+  .sidebar a.active {
+    background-color: #2980b9; /* Active link background */
+  }
+  
+  /* General Styles for Admin Dashboard */
+  h1, h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* You can add more styles as needed */
+  

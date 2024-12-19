@@ -1,0 +1,141 @@
+/* Signup.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+    
+    background-color:#3c009d;
+    margin-top: -12px;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding:80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 700px; /* Adjust width as needed */
+    text-align: center;
+    margin-top: -70px;
+    padding-left: 60px;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: blue;
+  }
+  
+  .underline {
+    width: 80px;
+    height: 3px;
+    background-color: #007bff;
+    margin: 0 auto 20px;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .success-message {
+    color: green;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    height: 80px;
+    
+  }
+  
+  .input img {
+     /* image:url("../../../Assets/email_icon.jpg.png"); */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+   .T1 {
+    border: 1px solid black;
+    padding: 19px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+    
+  } 
+  
+  .role-select {
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .submit-container {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height:50px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size:29px;
+    font-weight:700;
+    cursor: pointer;
+}
+
+
+
+.forgot-password {
+    padding-left:100px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    /* margin-top: 17px; */
+    color: black;
+    font-size: 18px;
+}
+
+.forgot-password span {
+    /* color: lightblue; */
+    cursor: pointer;
+}
+.forgot-password a{
+  color:red;
+  font-size: 24px;
+}
+
+
+.input .material-icons {
+  position:static;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #888;
+}
+
+
+
+

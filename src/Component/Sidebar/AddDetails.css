@@ -1,0 +1,182 @@
+/* AddDetails.css */
+
+.add-details-container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+    border-radius: 8px;
+    height: auto;
+    
+  }
+  
+  .add-details-container h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-size: 20px;
+    color:black;
+    margin-bottom:4px;
+    font-weight: 600;
+  }
+  
+  input,
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 20px;
+  }
+  
+  
+  
+  
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  form input[type="submit"] {
+    width: 110px;
+    margin: 20px auto;
+  }
+  
+  br {
+    margin: 5px 0;
+  }
+  .radio-buttons label {
+    font-size: 18px;
+    color:gray;
+    display: flex;
+    align-items: center;
+}
+
+/* AddDetails.css */
+/* General styling for the label */
+.add-details-container div {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: block;
+  font-weight: bold;
+}
+
+/* Styling for the radio buttons container */
+.add-details-container div  {
+  margin-bottom: 10px;
+  display:flex;
+  cursor: pointer;
+}
+
+/* Styling for each individual radio button label */
+.add-details-container div input[type="radio"] {
+  margin-right: 5px; /* Adds space between radio button and the label */
+  accent-color: #007bff; /* Optional: Adds a blue accent color for the radio button */
+
+}
+
+/* Styling for the gender radio button section */
+.add-details-container div label {
+  margin-right: 20px; /* Adds space between each radio button option */
+  display: inline-flex; /* Aligns the radio buttons horizontally */
+  align-items: center; /* Ensures the text aligns well with the radio button */
+}
+
+/* Hover effect for the labels */
+.add-details-container div label:hover {
+  cursor: pointer;
+  color: #007bff; /* Change text color on hover */
+}
+
+/* Ensures that the radio buttons and labels are well-aligned */
+.add-details-container div input[type="radio"] {
+  vertical-align: middle; /* Ensures vertical alignment with the label text */
+}
+
+/* Optional: Focus state styling for accessibility */
+.add-details-container input[type="radio"]:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+
+/* Label styling */
+.add-details-container label {
+  font-size: 19px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;  /* Makes the label a block element to prevent text from running next to the input */
+  
+}
+
+/* Styling for the select dropdowns */
+.add-details-container select {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 15px;  /* Adds space below the dropdown */
+  border: 1px solid #ccc;  /* Light gray border */
+  border-radius: 4px;  /* Rounded corners */
+  font-size: 16px;  /* Sets font size */
+  background-color: white;
+  appearance: none;  /* Removes default styling in some browsers (especially Safari) */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* Adds a custom arrow icon for the select dropdown */
+.add-details-container select::-ms-expand {
+  display: none; /* Removes the default dropdown arrow in Internet Explorer */
+}
+
+.add-details-container select:focus {
+  outline: none;
+  border-color: #007bff;  /* Changes the border color to blue when focused */
+}
+
+/* Optional style for select dropdown when hovered */
+.add-details-container select:hover {
+  border-color: #007bff;  /* Change border color on hover */
+}
+
+
+.skills-container   {
+  display: block;
+   
+   
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}

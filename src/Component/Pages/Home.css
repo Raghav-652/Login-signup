@@ -1,0 +1,22 @@
+
+.home {
+    background-image: url("../../Assets/home-image.jpg.jpg");
+    background-size: cover,contain;
+    height: 690px;
+    margin-top: auto;
+  }
+  .home h1{
+    font-size: 60px;
+    font-weight: 800;
+    display: flex;
+    padding: 60px;
+    margin-left: 390px;
+    
+  }
+    .home p{
+        font-size: 30px;
+        color: black;
+        font-weight: 500;
+        
+    }
+  
